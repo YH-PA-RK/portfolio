@@ -1,0 +1,1037 @@
+[
+  {
+    "path": "activities/index.html",
+    "sha": "d3641fd14cfb817a28849aa2d22455da8d9b41a5",
+    "size": 34974
+  },
+  {
+    "path": "assets/al_charts/js/chartjs-setup.js",
+    "sha": "0d19f26a4c0ed8d2a248997bccd8f7f35d60bd90",
+    "size": 705
+  },
+  {
+    "path": "assets/al_charts/js/diff2html-setup.js",
+    "sha": "dedcd8bc4ca840324dd9a5baa5343ae037d0218c",
+    "size": 946
+  },
+  {
+    "path": "assets/al_charts/js/echarts-setup.js",
+    "sha": "074f6ab21564cbebaefe4d4ee0e7e9aedd77b518",
+    "size": 1063
+  },
+  {
+    "path": "assets/al_charts/js/leaflet-setup.js",
+    "sha": "d1f4607ca1945df74865c0aab5c4c8f8b8ac9e22",
+    "size": 926
+  },
+  {
+    "path": "assets/al_charts/js/mermaid-setup.js",
+    "sha": "c555f927a501825338c0932ced7e102021eeca1e",
+    "size": 1361
+  },
+  {
+    "path": "assets/al_charts/js/plotly-setup.js",
+    "sha": "a6c21f6b1c08edd8862c8819adc59800064d4daa",
+    "size": 15650
+  },
+  {
+    "path": "assets/al_charts/js/vega-setup.js",
+    "sha": "058ea3d9a4bcf34fa623ed8ac6e518efcea171cc",
+    "size": 974
+  },
+  {
+    "path": "assets/al_img_tools/css/lightbox2-adapter.css",
+    "sha": "00ecc3b52a12fe8f14b76f273d2c9e29c07aefa5",
+    "size": 1000
+  },
+  {
+    "path": "assets/al_img_tools/js/lightbox2-adapter.js",
+    "sha": "f91a294ddf059f2359c8b2f099eccec1f8796258",
+    "size": 3292
+  },
+  {
+    "path": "assets/al_img_tools/js/venobox-setup.js",
+    "sha": "31a971762c6aab2934f3f1e1a0e5baee03545762",
+    "size": 124
+  },
+  {
+    "path": "assets/al_img_tools/js/zoom.js",
+    "sha": "6d630e680e237f386ec76987fd58011dfb860f9d",
+    "size": 343
+  },
+  {
+    "path": "assets/al_math/js/mathjax-setup.js",
+    "sha": "53f40b45da7761909eb5092365106e1f24358af5",
+    "size": 459
+  },
+  {
+    "path": "assets/al_math/js/pseudocode-setup.js",
+    "sha": "8a16f832384046eed0d8be34648a972937818bf2",
+    "size": 1025
+  },
+  {
+    "path": "assets/al_newsletter/js/newsletter.js",
+    "sha": "679e42bda90e458054fc44835eca6123118e6d97",
+    "size": 4064
+  },
+  {
+    "path": "assets/al_search/js/search-setup.js",
+    "sha": "0cc02f1f9f5313ca3d0c52f13c8e7c1ebd9a4a3f",
+    "size": 1213
+  },
+  {
+    "path": "assets/al_search/js/search/base-styles.min.js",
+    "sha": "7ffae438ce0eb9438ff06813907f890c487e40f1",
+    "size": 6715
+  },
+  {
+    "path": "assets/al_search/js/search/command-score.min.js",
+    "sha": "5114c73a56fc0ca50d28fddec6aa27780b020349",
+    "size": 1641
+  },
+  {
+    "path": "assets/al_search/js/search/hotkeys-js/hotkeys.esm.min.js",
+    "sha": "a3056ee62258de87790edf50d9505058d36a6aa7",
+    "size": 7971
+  },
+  {
+    "path": "assets/al_search/js/search/lit-element/lit-element.min.js",
+    "sha": "170f79153549c57d06e738c9980869e3b860c3f4",
+    "size": 1445
+  },
+  {
+    "path": "assets/al_search/js/search/lit-html/directives/class-map.min.js",
+    "sha": "002f40ae50cb46f4dd04c4ea0e6fdd34f831095a",
+    "size": 8363
+  },
+  {
+    "path": "assets/al_search/js/search/lit-html/directives/join.min.js",
+    "sha": "eba9a9fb2f32626f5cf29b2a92c968c44ab0cc65",
+    "size": 506
+  },
+  {
+    "path": "assets/al_search/js/search/lit-html/directives/live.min.js",
+    "sha": "40550b901a031339de8efe51c19feafd1ef0076f",
+    "size": 8169
+  },
+  {
+    "path": "assets/al_search/js/search/lit-html/directives/ref.min.js",
+    "sha": "0784e020dd13dc3ee7e0a6753fa4a1ccbe0694e6",
+    "size": 9540
+  },
+  {
+    "path": "assets/al_search/js/search/lit-html/directives/repeat.min.js",
+    "sha": "91942ff7cbf1172676516122c286f1bc1f7c8d65",
+    "size": 9577
+  },
+  {
+    "path": "assets/al_search/js/search/lit-html/directives/unsafe-html.min.js",
+    "sha": "7ecd21738b9b91cf4c4a38244fbcc9f9f7144cf0",
+    "size": 8173
+  },
+  {
+    "path": "assets/al_search/js/search/lit-html/is-server.min.js",
+    "sha": "f7f16cb5fcd46a495fc96935032d871f4ed1e09f",
+    "size": 393
+  },
+  {
+    "path": "assets/al_search/js/search/lit-html/lit-html.min.js",
+    "sha": "2c27b5c0340951c462696398de22dbc97b955ea0",
+    "size": 7489
+  },
+  {
+    "path": "assets/al_search/js/search/lit/decorators.min.js",
+    "sha": "e4f2f3e8484fbe3b28020e7786c0ebbb24e3bc22",
+    "size": 842
+  },
+  {
+    "path": "assets/al_search/js/search/lit/directives/class-map.min.js",
+    "sha": "05186048dd9587ebd0f6a1382177f26d5a5a135e",
+    "size": 332
+  },
+  {
+    "path": "assets/al_search/js/search/lit/directives/join.min.js",
+    "sha": "26a10a5a32762e09d72bb9a70df44e3b1db55120",
+    "size": 322
+  },
+  {
+    "path": "assets/al_search/js/search/lit/directives/live.min.js",
+    "sha": "5b930a60337fec835161dbf0130d66442259c662",
+    "size": 322
+  },
+  {
+    "path": "assets/al_search/js/search/lit/directives/ref.min.js",
+    "sha": "385c3b84fd6b26c5a10eb85492a6ce0aed140d78",
+    "size": 320
+  },
+  {
+    "path": "assets/al_search/js/search/lit/directives/repeat.min.js",
+    "sha": "8bc323856db3b6b50259e4d6839649ee02a42704",
+    "size": 326
+  },
+  {
+    "path": "assets/al_search/js/search/lit/directives/unsafe-html.min.js",
+    "sha": "193aa4e7873da0f86bca02d3dfea768ba61e63ac",
+    "size": 336
+  },
+  {
+    "path": "assets/al_search/js/search/lit/index.min.js",
+    "sha": "49c9ad6705c03c19a2ed996d3b9c35ed5bc5f689",
+    "size": 438
+  },
+  {
+    "path": "assets/al_search/js/search/ninja-action.min.js",
+    "sha": "cf779a69d403d37461c7a784738eb8b25386cd5c",
+    "size": 5084
+  },
+  {
+    "path": "assets/al_search/js/search/ninja-footer.min.js",
+    "sha": "645b844016aa11ee253e5725f0a64c04f6c6c9d3",
+    "size": 2282
+  },
+  {
+    "path": "assets/al_search/js/search/ninja-header.min.js",
+    "sha": "79b60928bdd1ab78112df91be8fc13424912bb89",
+    "size": 4094
+  },
+  {
+    "path": "assets/al_search/js/search/ninja-keys.min.js",
+    "sha": "60b697017c2399fd1ceaec56bae408247bceb214",
+    "size": 10339
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/custom-element.min.js",
+    "sha": "b8e9f276b530c5d6d5cbb43e48fc0bccba6ec8a2",
+    "size": 527
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/event-options.min.js",
+    "sha": "efc0dbfcd42c06054b5418774edb579cc508b0be",
+    "size": 498
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/property.min.js",
+    "sha": "2979d6fdb2031e73c9e1dcfd8bd264e952d0ae71",
+    "size": 7935
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/query-all.min.js",
+    "sha": "dc2f0b760b96b3e8d18fb3891932e35f3cc99ccf",
+    "size": 744
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/query-assigned-elements.min.js",
+    "sha": "52a06db6a9d04c8d630a5436ceb3828f1affa473",
+    "size": 880
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/query-assigned-nodes.min.js",
+    "sha": "9a51d5314756bfc2ddcfe73bb8514c6b203ddc1f",
+    "size": 817
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/query-async.min.js",
+    "sha": "bb1db85f23d041c0de6d552f70a4c321b4b72a2b",
+    "size": 736
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/query.min.js",
+    "sha": "711e44d7ce1124a5d24d1c9eb45b01b19c4c6caf",
+    "size": 973
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/decorators/state.min.js",
+    "sha": "9f046cf0ef15aaa471ff9c69210cfe10926f3df8",
+    "size": 8050
+  },
+  {
+    "path": "assets/al_search/js/search/reactive-element/reactive-element.min.js",
+    "sha": "f17fbbe16831f390f27b523f104a11bc9d7b38e4",
+    "size": 7548
+  },
+  {
+    "path": "assets/al_search/js/shortcut-key.js",
+    "sha": "ddb5982d83aefc9b05e48bb5dac1e9837eafca7a",
+    "size": 526
+  },
+  {
+    "path": "assets/audio/epicaly-short-113909.mp3",
+    "sha": "5fd64b91becdfbf451d7485a9ac568c3dfd94a29",
+    "size": 915330
+  },
+  {
+    "path": "assets/bibliography/2018-12-22-distill.bib",
+    "sha": "2b06f3c99f2aa7fb9c3fadd655df5a8087093531",
+    "size": 307
+  },
+  {
+    "path": "assets/css/al-folio-cv.css",
+    "sha": "80b7bfd39adeadc47194340e2ca385084258bc7c",
+    "size": 428
+  },
+  {
+    "path": "assets/css/al-folio-distill.css",
+    "sha": "be5d49c64045ba973ddbce7c87b6ec5a956f30d3",
+    "size": 3150
+  },
+  {
+    "path": "assets/css/jekyll-pygments-themes-github.css",
+    "sha": "e8744fa9a0f5dc79888ab4257f8b6d27cc4fa1c1",
+    "size": 3344
+  },
+  {
+    "path": "assets/css/jekyll-pygments-themes-native.css",
+    "sha": "6ae745c4840e77a11f682bba53e8cb59b29a00f2",
+    "size": 3637
+  },
+  {
+    "path": "assets/css/jupyter-grade3.css",
+    "sha": "15b55ebcab9a043c2b35dcf0d9d32d1b2bb4cf41",
+    "size": 10427
+  },
+  {
+    "path": "assets/css/jupyter-monokai.css",
+    "sha": "743d1d49788b473e427da92ff051fe708e536741",
+    "size": 10541
+  },
+  {
+    "path": "assets/css/jupyter.css",
+    "sha": "ab06bace970c2052ed2c136a8a6ffb7225209780",
+    "size": 14045
+  },
+  {
+    "path": "assets/css/main.css",
+    "sha": "a26e48af962d91c4287c6bf3712441fe0efc31f2",
+    "size": 32446
+  },
+  {
+    "path": "assets/css/main.css.map",
+    "sha": "deac7b4883bc3654fc3960d6a01c7c7921b51c1d",
+    "size": 57566
+  },
+  {
+    "path": "assets/css/tailwind.css",
+    "sha": "b7129454e2fec3fae8c98ce61b8e11c33cc297a4",
+    "size": 20216
+  },
+  {
+    "path": "assets/html/relativity.html",
+    "sha": "bb1281754a8f7c96138322ee1ff35ed6b1788379",
+    "size": 272
+  },
+  {
+    "path": "assets/img/1-1400.webp",
+    "sha": "8e220627a21d2683b169dfa9bf02b6a585c9dbcd",
+    "size": 76344
+  },
+  {
+    "path": "assets/img/1-480.webp",
+    "sha": "b4117e6015d1399106efb9dd254d5e0440891f47",
+    "size": 30114
+  },
+  {
+    "path": "assets/img/1-800.webp",
+    "sha": "8e220627a21d2683b169dfa9bf02b6a585c9dbcd",
+    "size": 76344
+  },
+  {
+    "path": "assets/img/1.jpg",
+    "sha": "1f2eb4c5f12facb04c7f96dc9243fba63d503bde",
+    "size": 66120
+  },
+  {
+    "path": "assets/img/10-1400.webp",
+    "sha": "d6066d206c776b6c51cd27af00a20bf0091f1b2e",
+    "size": 40962
+  },
+  {
+    "path": "assets/img/10-480.webp",
+    "sha": "5199cc40eb05e2261a562e541239e9d3176b6d94",
+    "size": 16494
+  },
+  {
+    "path": "assets/img/10-800.webp",
+    "sha": "d6066d206c776b6c51cd27af00a20bf0091f1b2e",
+    "size": 40962
+  },
+  {
+    "path": "assets/img/10.jpg",
+    "sha": "e9958d4992ca198909b3e877003ff0e667a5d596",
+    "size": 47225
+  },
+  {
+    "path": "assets/img/11-1400.webp",
+    "sha": "c242e17f53696c6b2fe58599fbe7b4ce32918bb2",
+    "size": 71570
+  },
+  {
+    "path": "assets/img/11-480.webp",
+    "sha": "4ee389c476d74d1d03597950b942fa4035b67485",
+    "size": 32516
+  },
+  {
+    "path": "assets/img/11-800.webp",
+    "sha": "c242e17f53696c6b2fe58599fbe7b4ce32918bb2",
+    "size": 71570
+  },
+  {
+    "path": "assets/img/11.jpg",
+    "sha": "9db0d27ff664832221ff5885eda76d07749e5d54",
+    "size": 87841
+  },
+  {
+    "path": "assets/img/12-1400.webp",
+    "sha": "c877a0efb5a0ef094ddc53267b0423bcb64e7e5d",
+    "size": 8584
+  },
+  {
+    "path": "assets/img/12-480.webp",
+    "sha": "90b21b9f0d6b675aca0dcaa3ad27e4a12012d64c",
+    "size": 4270
+  },
+  {
+    "path": "assets/img/12-800.webp",
+    "sha": "c877a0efb5a0ef094ddc53267b0423bcb64e7e5d",
+    "size": 8584
+  },
+  {
+    "path": "assets/img/12.jpg",
+    "sha": "e343b3910a5dbc884aa0f164f1e076b3dee29507",
+    "size": 16036
+  },
+  {
+    "path": "assets/img/2-1400.webp",
+    "sha": "db2057fbf0441846faacd835221a167492542204",
+    "size": 66892
+  },
+  {
+    "path": "assets/img/2-480.webp",
+    "sha": "d3fbaf970841ebdbe79568283c8c702d17b241a4",
+    "size": 34386
+  },
+  {
+    "path": "assets/img/2-800.webp",
+    "sha": "db2057fbf0441846faacd835221a167492542204",
+    "size": 66892
+  },
+  {
+    "path": "assets/img/2.jpg",
+    "sha": "4f663e82f00291d981ab0335b49ad855f0a22035",
+    "size": 91413
+  },
+  {
+    "path": "assets/img/3-1400.webp",
+    "sha": "491dfe258def31167b1540fc7eb1bd28dcec29c1",
+    "size": 41130
+  },
+  {
+    "path": "assets/img/3-480.webp",
+    "sha": "cc4f700fe8a87fee805700195cb6db75b0c2d03e",
+    "size": 18612
+  },
+  {
+    "path": "assets/img/3-800.webp",
+    "sha": "491dfe258def31167b1540fc7eb1bd28dcec29c1",
+    "size": 41130
+  },
+  {
+    "path": "assets/img/3.jpg",
+    "sha": "2cc28bdd21834827d96274d1e6571d6d17051370",
+    "size": 45858
+  },
+  {
+    "path": "assets/img/4-1400.webp",
+    "sha": "3fb9e99b8410580c41be084495aba72290d50d59",
+    "size": 28378
+  },
+  {
+    "path": "assets/img/4-480.webp",
+    "sha": "30f6ddb6ef3f2a15c6030f02f5a85ba53097426e",
+    "size": 12384
+  },
+  {
+    "path": "assets/img/4-800.webp",
+    "sha": "3fb9e99b8410580c41be084495aba72290d50d59",
+    "size": 28378
+  },
+  {
+    "path": "assets/img/4.jpg",
+    "sha": "746b20694de4abaa5185faeb1f24ab61f8ab0a65",
+    "size": 35416
+  },
+  {
+    "path": "assets/img/5-1400.webp",
+    "sha": "74311880da064ede86763d420160e251ced054c0",
+    "size": 28060
+  },
+  {
+    "path": "assets/img/5-480.webp",
+    "sha": "0e53186a20cf2963bd683de1e3f40e8c9acc621c",
+    "size": 13144
+  },
+  {
+    "path": "assets/img/5-800.webp",
+    "sha": "74311880da064ede86763d420160e251ced054c0",
+    "size": 28060
+  },
+  {
+    "path": "assets/img/5.jpg",
+    "sha": "80a4df3a66d0ef92b412ae95b8bab4546d59e18b",
+    "size": 36350
+  },
+  {
+    "path": "assets/img/6-1400.webp",
+    "sha": "996fd3be5891e4b9b0c93eb77f8846d59ad242dd",
+    "size": 52970
+  },
+  {
+    "path": "assets/img/6-480.webp",
+    "sha": "4f06b1df9e5e6e0b7cde550b240c77d03e31d488",
+    "size": 21654
+  },
+  {
+    "path": "assets/img/6-800.webp",
+    "sha": "996fd3be5891e4b9b0c93eb77f8846d59ad242dd",
+    "size": 52970
+  },
+  {
+    "path": "assets/img/6.jpg",
+    "sha": "92317bed5c73d4714f11a67f6ead1a7a611abddb",
+    "size": 61427
+  },
+  {
+    "path": "assets/img/7-1400.webp",
+    "sha": "8df096d9eff4434fb0ee978aa7f64775f14d4ece",
+    "size": 5820
+  },
+  {
+    "path": "assets/img/7-480.webp",
+    "sha": "3f18475d15bf8497ab1f6174e583b303384b8da2",
+    "size": 2628
+  },
+  {
+    "path": "assets/img/7-800.webp",
+    "sha": "8df096d9eff4434fb0ee978aa7f64775f14d4ece",
+    "size": 5820
+  },
+  {
+    "path": "assets/img/7.jpg",
+    "sha": "f581ccdd929bb3d88dc483125a1a5c76d2cf500c",
+    "size": 10651
+  },
+  {
+    "path": "assets/img/8-1400.webp",
+    "sha": "451e7a6026d769b1f694e749be30d211d2c3f6be",
+    "size": 16342
+  },
+  {
+    "path": "assets/img/8-480.webp",
+    "sha": "27fd03c877d4c1f04bf4713c24a8afd4e5d5b01f",
+    "size": 7628
+  },
+  {
+    "path": "assets/img/8-800.webp",
+    "sha": "451e7a6026d769b1f694e749be30d211d2c3f6be",
+    "size": 16342
+  },
+  {
+    "path": "assets/img/8.jpg",
+    "sha": "498432a1398135235e12a9a1e4f745fdcd191b13",
+    "size": 29426
+  },
+  {
+    "path": "assets/img/9-1400.webp",
+    "sha": "f842021fb2da3accd5cbfc8863eba31a2adf3875",
+    "size": 37210
+  },
+  {
+    "path": "assets/img/9-480.webp",
+    "sha": "a0d5337b1a6bd2603498446cbc8d448db646b563",
+    "size": 15660
+  },
+  {
+    "path": "assets/img/9-800.webp",
+    "sha": "f842021fb2da3accd5cbfc8863eba31a2adf3875",
+    "size": 37210
+  },
+  {
+    "path": "assets/img/9.jpg",
+    "sha": "d5b79728b90830670ec69b1b084cfb4eb2ac5081",
+    "size": 39678
+  },
+  {
+    "path": "assets/img/activities/nurly-student-ambassador-reel-1400.webp",
+    "sha": "60504099b8714c8c7c6fd683d4ad12ca9510d2fa",
+    "size": 10606
+  },
+  {
+    "path": "assets/img/activities/nurly-student-ambassador-reel-480.webp",
+    "sha": "60504099b8714c8c7c6fd683d4ad12ca9510d2fa",
+    "size": 10606
+  },
+  {
+    "path": "assets/img/activities/nurly-student-ambassador-reel-800.webp",
+    "sha": "60504099b8714c8c7c6fd683d4ad12ca9510d2fa",
+    "size": 10606
+  },
+  {
+    "path": "assets/img/activities/nurly-student-ambassador-reel.jpg",
+    "sha": "094d568e8634d4089f7193e815c0fbeb99680646",
+    "size": 20108
+  },
+  {
+    "path": "assets/img/activities/paranbidulgi-2019-1400.webp",
+    "sha": "ee3fb2e5ce17e25d618117a4094d3299ce315f10",
+    "size": 110736
+  },
+  {
+    "path": "assets/img/activities/paranbidulgi-2019-480.webp",
+    "sha": "718c151ff0c9d64a388020a262bcb8e934a960a8",
+    "size": 35474
+  },
+  {
+    "path": "assets/img/activities/paranbidulgi-2019-800.webp",
+    "sha": "cc1a86bf2b0a517295401b470f8c2ecc838eb97e",
+    "size": 57114
+  },
+  {
+    "path": "assets/img/activities/paranbidulgi-2019.jpg",
+    "sha": "60dc73345238aa383ab0db5971824d2540aa0334",
+    "size": 830537
+  },
+  {
+    "path": "assets/img/activities/seraphic-2022-01-1400.webp",
+    "sha": "025a4bf6be0f374e24cef80170641f4004454c49",
+    "size": 39892
+  },
+  {
+    "path": "assets/img/activities/seraphic-2022-01-480.webp",
+    "sha": "a340496810b2e9823aed7eafcdb9f05019b4641e",
+    "size": 18466
+  },
+  {
+    "path": "assets/img/activities/seraphic-2022-01-800.webp",
+    "sha": "1f7772a79b9478ebb32998cdce9f8f096e5bd952",
+    "size": 30084
+  },
+  {
+    "path": "assets/img/activities/seraphic-2022-01.jpg",
+    "sha": "6b1374c378832f3a647e5e35409006765f79cea2",
+    "size": 94000
+  },
+  {
+    "path": "assets/img/activities/seraphic-2022-02-1400.webp",
+    "sha": "e738cd0c8c84df485578658e5cf20007e53ee4c4",
+    "size": 40492
+  },
+  {
+    "path": "assets/img/activities/seraphic-2022-02-480.webp",
+    "sha": "a85577e112547e473d341df43609c2a7c35dc42a",
+    "size": 16888
+  },
+  {
+    "path": "assets/img/activities/seraphic-2022-02-800.webp",
+    "sha": "91f9932fb780433ed10779f5b4683f03d5b49c63",
+    "size": 28544
+  },
+  {
+    "path": "assets/img/activities/seraphic-2022-02.jpg",
+    "sha": "ec52eb673ee20f31262b67d99dca52760ce61e26",
+    "size": 101519
+  },
+  {
+    "path": "assets/img/activities/seraphic-2023-01-1400.webp",
+    "sha": "6e4afda7be76e5d11971c0dc6568a7f850b1cf51",
+    "size": 53802
+  },
+  {
+    "path": "assets/img/activities/seraphic-2023-01-480.webp",
+    "sha": "61b9a21facdd209a80cc05ec3479b08c07a4e87d",
+    "size": 18814
+  },
+  {
+    "path": "assets/img/activities/seraphic-2023-01-800.webp",
+    "sha": "17bf46f5933ebf1ff75c0de5c93534ae6ef46afa",
+    "size": 35938
+  },
+  {
+    "path": "assets/img/activities/seraphic-2023-01.jpg",
+    "sha": "0abcd86d08616f225d6c4ac31659c0e15d865039",
+    "size": 106653
+  },
+  {
+    "path": "assets/img/activities/seraphic-2023-02-1400.webp",
+    "sha": "743d03ea8990bc6c51f949f6c5634e0e17614e8c",
+    "size": 46998
+  },
+  {
+    "path": "assets/img/activities/seraphic-2023-02-480.webp",
+    "sha": "1ee976bc2a864623b1aab22c697a71b6079e2fc1",
+    "size": 16742
+  },
+  {
+    "path": "assets/img/activities/seraphic-2023-02-800.webp",
+    "sha": "4bb4b5f670a5f531471d3d7a9cedf9a3b0be4d74",
+    "size": 31338
+  },
+  {
+    "path": "assets/img/activities/seraphic-2023-02.jpg",
+    "sha": "8b0f0e47ca1c905b040c3c5e23b9c221350a16e5",
+    "size": 97363
+  },
+  {
+    "path": "assets/img/activities/student-ambassador-guest-appearance-1400.webp",
+    "sha": "2e4aa6fcab19bd03d40ce3a81b313fe4bccf13bc",
+    "size": 35076
+  },
+  {
+    "path": "assets/img/activities/student-ambassador-guest-appearance-480.webp",
+    "sha": "7fbca4218fb3bde381ba682dec3b67bc1c584d76",
+    "size": 11392
+  },
+  {
+    "path": "assets/img/activities/student-ambassador-guest-appearance-800.webp",
+    "sha": "bac53c21ab631e6d2477fc65c24044550decfc73",
+    "size": 20488
+  },
+  {
+    "path": "assets/img/activities/student-ambassador-guest-appearance.png",
+    "sha": "ad94c2005e18a7da1ecad4188d5dbae7743734ab",
+    "size": 924904
+  },
+  {
+    "path": "assets/img/book_covers/the_godfather-1400.webp",
+    "sha": "fa8af3a21379db3784fafcbb53773a6224f28896",
+    "size": 30486
+  },
+  {
+    "path": "assets/img/book_covers/the_godfather-480.webp",
+    "sha": "0eb17fcbf798b5d1e6248b36b2ae40539f74d42b",
+    "size": 18756
+  },
+  {
+    "path": "assets/img/book_covers/the_godfather-800.webp",
+    "sha": "fa8af3a21379db3784fafcbb53773a6224f28896",
+    "size": 30486
+  },
+  {
+    "path": "assets/img/book_covers/the_godfather.jpg",
+    "sha": "1d3a0856467172fac645e46233a7828b6f506632",
+    "size": 54365
+  },
+  {
+    "path": "assets/img/prof_pic-1400.webp",
+    "sha": "294dd37c4a27e3b366f0d5880182da976388d199",
+    "size": 27130
+  },
+  {
+    "path": "assets/img/prof_pic-480.webp",
+    "sha": "294dd37c4a27e3b366f0d5880182da976388d199",
+    "size": 27130
+  },
+  {
+    "path": "assets/img/prof_pic-800.webp",
+    "sha": "294dd37c4a27e3b366f0d5880182da976388d199",
+    "size": 27130
+  },
+  {
+    "path": "assets/img/prof_pic.jpg",
+    "sha": "f9928ef4e55dd9387ee88ed81c2b21a86c5f047c",
+    "size": 119745
+  },
+  {
+    "path": "assets/img/prof_pic_color-1400.webp",
+    "sha": "5fee2e9e1abfbd7544bdb8f8f167c13818c96d88",
+    "size": 159338
+  },
+  {
+    "path": "assets/img/prof_pic_color-480.webp",
+    "sha": "e510058cb2e6e7d34cd30a9ce6e47b291fb957a4",
+    "size": 36984
+  },
+  {
+    "path": "assets/img/prof_pic_color-800.webp",
+    "sha": "d6d4f2cfbbf45692e2fd34b64c70f8a06be0e31c",
+    "size": 74402
+  },
+  {
+    "path": "assets/img/prof_pic_color.png",
+    "sha": "4a339110a0d8189c2a84d9dfc5631100dcc588ac",
+    "size": 14382922
+  },
+  {
+    "path": "assets/img/publication_preview/brownian-motion-1400.webp",
+    "sha": "5c8d257fabf3cfc837b1367aa397ff8b8b10a714",
+    "size": 401060
+  },
+  {
+    "path": "assets/img/publication_preview/brownian-motion-480.webp",
+    "sha": "5c8d257fabf3cfc837b1367aa397ff8b8b10a714",
+    "size": 401060
+  },
+  {
+    "path": "assets/img/publication_preview/brownian-motion-800.webp",
+    "sha": "5c8d257fabf3cfc837b1367aa397ff8b8b10a714",
+    "size": 401060
+  },
+  {
+    "path": "assets/img/publication_preview/brownian-motion.gif",
+    "sha": "e4bae8f96e18ad06e54a6c4f7d08e5a23d8b9366",
+    "size": 154817
+  },
+  {
+    "path": "assets/img/publication_preview/wave-mechanics-1400.webp",
+    "sha": "faf95627bfb303aad30c851db93755634fc1fea4",
+    "size": 40590
+  },
+  {
+    "path": "assets/img/publication_preview/wave-mechanics-480.webp",
+    "sha": "faf95627bfb303aad30c851db93755634fc1fea4",
+    "size": 40590
+  },
+  {
+    "path": "assets/img/publication_preview/wave-mechanics-800.webp",
+    "sha": "faf95627bfb303aad30c851db93755634fc1fea4",
+    "size": 40590
+  },
+  {
+    "path": "assets/img/publication_preview/wave-mechanics.gif",
+    "sha": "8d7f502cef21e607a26ca7a4c74c027e026b8d7d",
+    "size": 27517
+  },
+  {
+    "path": "assets/img/rhino-1400.webp",
+    "sha": "ece835a721f12ade6cea08691038495caa501197",
+    "size": 269056
+  },
+  {
+    "path": "assets/img/rhino-480.webp",
+    "sha": "c091f630b33fc05aaac69358dc87fcdca050a5a9",
+    "size": 44918
+  },
+  {
+    "path": "assets/img/rhino-800.webp",
+    "sha": "3e6626cdb2a088e85a1809d4d8141e5c25b664f8",
+    "size": 118390
+  },
+  {
+    "path": "assets/img/rhino.png",
+    "sha": "ed8bdfca93a2b2f59c2b67ddb2b78453d877d22f",
+    "size": 1648028
+  },
+  {
+    "path": "assets/img/template_error-1400.webp",
+    "sha": "ddf46d12972319c016f9e44cd2456f1c55a60c41",
+    "size": 22098
+  },
+  {
+    "path": "assets/img/template_error-480.webp",
+    "sha": "c171afb5eb0678177c5aa8a13322f5e70fcec297",
+    "size": 8078
+  },
+  {
+    "path": "assets/img/template_error-800.webp",
+    "sha": "66791f445c022ef43ef1847827663f44706731ef",
+    "size": 17804
+  },
+  {
+    "path": "assets/img/template_error.png",
+    "sha": "c9f74a3178e2c471992a50146dd783dc8d1b0496",
+    "size": 56682
+  },
+  {
+    "path": "assets/js/bibsearch.js",
+    "sha": "8f2f031cb6206ef852e492a670c350eba6df8e8e",
+    "size": 3096
+  },
+  {
+    "path": "assets/js/calendar-setup.js",
+    "sha": "223a544a2dbd887b53a20e54d545f19bf91dd237",
+    "size": 706
+  },
+  {
+    "path": "assets/js/common.js",
+    "sha": "e3c5fb03101d28d8c0ae7e1c5ed8a3bb21a045b9",
+    "size": 6324
+  },
+  {
+    "path": "assets/js/copy_code.js",
+    "sha": "c2f78eddef0331db4d9fade3ee8aec4fe89f0a75",
+    "size": 2411
+  },
+  {
+    "path": "assets/js/distillpub/overrides.js",
+    "sha": "d493e60ae654d1a74469622bac8aa95fe97df627",
+    "size": 1481
+  },
+  {
+    "path": "assets/js/distillpub/provenance.json",
+    "sha": "28ed3d96c4f6906aa05a1d93514a0fd6614630db",
+    "size": 785
+  },
+  {
+    "path": "assets/js/distillpub/template.v2.js",
+    "sha": "4c7667ea64d30d7485716cd0abdfa2767756fea7",
+    "size": 302562
+  },
+  {
+    "path": "assets/js/distillpub/template.v2.js.map",
+    "sha": "e342ef3e980850040918bd33f5800ae905550c66",
+    "size": 602453
+  },
+  {
+    "path": "assets/js/distillpub/transforms.v2.js",
+    "sha": "95ff1122e5f26da76f8140b750b5d855e9289205",
+    "size": 641725
+  },
+  {
+    "path": "assets/js/distillpub/transforms.v2.js.map",
+    "sha": "10b8b499071a08062e84967f52188ffbeda9fa31",
+    "size": 1024816
+  },
+  {
+    "path": "assets/js/highlight-search-term.js",
+    "sha": "d74a22c46e0bd0c7f13972c2c85746ba2459ee7b",
+    "size": 4190
+  },
+  {
+    "path": "assets/js/jupyter_new_tab.js",
+    "sha": "93d400c0de83cf898ca38b45eae81aa047a71b48",
+    "size": 1185
+  },
+  {
+    "path": "assets/js/masonry.js",
+    "sha": "872e196f02d571101f9a70336d55acc1132aed00",
+    "size": 557
+  },
+  {
+    "path": "assets/js/nav-toggle.js",
+    "sha": "87a81e5c271bcc60cc4cc0674c830a639a109398",
+    "size": 2997
+  },
+  {
+    "path": "assets/js/no_defer.js",
+    "sha": "44a9f3a2a221c312e84e1ffb29bb2edf7ed65a05",
+    "size": 992
+  },
+  {
+    "path": "assets/js/progress-bar.js",
+    "sha": "106bd5566687d25b29d1174ca24cfcd0a9729e5e",
+    "size": 2323
+  },
+  {
+    "path": "assets/js/table-engine.js",
+    "sha": "e6c9ffe8f4ebdfd3a2e98a8c7b36177bfab8f51b",
+    "size": 10678
+  },
+  {
+    "path": "assets/js/tabs.js",
+    "sha": "f68aa15714208080badb9c8748e945167dea3e15",
+    "size": 7629
+  },
+  {
+    "path": "assets/js/theme.js",
+    "sha": "21b92c850ed1c9d7058fde80fa61ee9e7079467f",
+    "size": 24255
+  },
+  {
+    "path": "assets/js/tooltips-setup.js",
+    "sha": "44267f54e5231fde03328d0e5fb02b264cabf007",
+    "size": 3398
+  },
+  {
+    "path": "assets/js/typograms.js",
+    "sha": "1d6eed433858be635889d25384ffe4a8ec95b0b4",
+    "size": 38137
+  },
+  {
+    "path": "assets/json/resume.json",
+    "sha": "642b275a2512cbc2415cf12b93e62d9d993cc336",
+    "size": 6558
+  },
+  {
+    "path": "assets/json/table_data.json",
+    "sha": "661fd1e1e4bc4734a51914d5a24c876f006fe824",
+    "size": 1076
+  },
+  {
+    "path": "assets/jupyter/blog.ipynb.html",
+    "sha": "52b6b6732f4e4b93bdb1802ed1bfa2e39e853b51",
+    "size": 277334
+  },
+  {
+    "path": "assets/pdf/example_pdf.pdf",
+    "sha": "b1f80dbf28c0a576191ab1a642c52a3396bbfd6b",
+    "size": 15879
+  },
+  {
+    "path": "assets/pdf/paranbidulgi-reflection.pdf",
+    "sha": "c7f4b2488b991798acefad18fdfd7bfe31b473d2",
+    "size": 2183479
+  },
+  {
+    "path": "assets/pdf/yeonghun-park-cv.pdf",
+    "sha": "8c12d7db3aadfb657cd37afeac090778cb45af68",
+    "size": 111006
+  },
+  {
+    "path": "assets/plotly/demo.html",
+    "sha": "89c319bf5f50914abf18aa8812a97015c5af6b19",
+    "size": 4231521
+  },
+  {
+    "path": "assets/rendercv/design.yaml",
+    "sha": "9488f716fdf44ef6690f759b0cf746932f12b6bd",
+    "size": 184
+  },
+  {
+    "path": "assets/rendercv/locale.yaml",
+    "sha": "ea119276f18f4f782424b7e6082127091d8a00a6",
+    "size": 118
+  },
+  {
+    "path": "assets/rendercv/rendercv_output/Albert_Einstein_CV.pdf",
+    "sha": "52aab0e4faa01e90b05bca7797b1739eb5a61f99",
+    "size": 71513
+  },
+  {
+    "path": "assets/rendercv/settings.yaml",
+    "sha": "41c98ba24265c423c9805efa6fea2894bad15697",
+    "size": 858
+  },
+  {
+    "path": "assets/tailwind/app.css",
+    "sha": "460a4537e31e10efd41344b5f954b1731c6c954a",
+    "size": 14060
+  },
+  {
+    "path": "assets/tailwind/bootstrap-compat.input.css",
+    "sha": "76fae7efd75bf7e2f81fb455f16aef0f86622029",
+    "size": 1467
+  },
+  {
+    "path": "assets/tailwind/input.css",
+    "sha": "8004a2e6ac5421d2d09c79d9934f26856af19bbe",
+    "size": 98
+  },
+  {
+    "path": "assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4",
+    "sha": "c4c55d783ba14cc5d14bbbf342b877469253cbdb",
+    "size": 1539606
+  },
+  {
+    "path": "assets/video/tutorial_al_folio.mp4",
+    "sha": "5774ab27d6479c9e164b4a387b192a8a3562262e",
+    "size": 25991824
+  },
+  {
+    "path": "cv/index.html",
+    "sha": "d0d967cf937dc375a183ec329aedcd0e5f3dace2",
+    "size": 27499
+  },
+  {
+    "path": "index.html",
+    "sha": "c592a7662f7a19e31b56c2d5458f2af2daf528ef",
+    "size": 25297
+  }
+]
