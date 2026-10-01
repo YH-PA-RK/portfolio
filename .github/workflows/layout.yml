@@ -1,0 +1,45 @@
+name: About layout review
+
+on:
+  pull_request:
+    paths:
+      - index.html
+      - scripts/check_layout.mjs
+      - .github/workflows/layout.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  layout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install browser testing tools
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Prepare independent website
+        run: |
+          python scripts/import_portfolio.py
+          mkdir -p /tmp/portfolio-layout
+          ln -s "$GITHUB_WORKSPACE/_site" /tmp/portfolio-layout/portfolio
+          python -m http.server 8000 --directory /tmp/portfolio-layout >/tmp/layout-server.log 2>&1 &
+      - name: Check desktop and mobile layouts in both themes
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: node scripts/check_layout.mjs
+      - name: Save comparison screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: about-layout-review
+          path: layout-review/
+          retention-days: 14
