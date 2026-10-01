@@ -971,8 +971,9 @@
   },
   {
     "path": "assets/pdf/yeonghun-park-cv.pdf",
-    "sha": "8c12d7db3aadfb657cd37afeac090778cb45af68",
-    "size": 111006
+    "sha": "6fad5946efd75cd6b7c56c401b8be1369cf09bfa",
+    "size": 174447,
+    "url": "https://yh-pa-rk.github.io/assets/pdf/yeonghun-park-cv.pdf"
   },
   {
     "path": "assets/plotly/demo.html",

@@ -20,7 +20,7 @@ def download(item):
     assert not relative.startswith('/') and '..' not in Path(relative).parts
     for attempt in range(3):
         try:
-            with urlopen(SOURCE + quote(relative), timeout=60) as response:
+            with urlopen(item.get('url', SOURCE + quote(relative)), timeout=60) as response:
                 data = response.read()
             digest = sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
             if digest != item['sha']:
@@ -83,24 +83,32 @@ def main():
             path.write_text(path.read_text().replace('/research-portfolio/', PREFIX))
 
         import fitz
+        from pypdf import PdfReader, PdfWriter
+        from pypdf.generic import NameObject, TextStringObject
         pdf = ROOT / 'assets/pdf/yeonghun-park-cv.pdf'
         document = fitz.open(pdf)
         text_before = [page.get_text() for page in document]
         pixels_before = [page.get_pixmap().samples for page in document]
+        document.close()
+        writer = PdfWriter()
+        writer.clone_document_from_reader(PdfReader(pdf))
         changed = 0
-        for page in document:
-            for link in page.get_links():
-                if link.get('uri') == SOURCE:
-                    link['uri'] = 'https://yh-pa-rk.github.io' + PREFIX
-                    page.update_link(link)
+        for page in writer.pages:
+            for reference in page.get('/Annots', []):
+                annotation = reference.get_object()
+                action_reference = annotation.get('/A')
+                action = action_reference.get_object() if action_reference else None
+                if action and action.get('/URI') == 'https://yh-pa-rk.github.io/':
+                    action[NameObject('/URI')] = TextStringObject('https://yh-pa-rk.github.io' + PREFIX)
                     changed += 1
         assert changed == 1
         temporary = pdf.with_suffix('.new.pdf')
-        document.save(temporary, garbage=4, deflate=True)
-        document.close()
+        writer.write(temporary)
         with fitz.open(temporary) as check:
             assert [page.get_text() for page in check] == text_before
             assert [page.get_pixmap().samples for page in check] == pixels_before
+            assert sum(link.get('uri') == 'https://yh-pa-rk.github.io' + PREFIX
+                       for page in check for link in page.get_links()) == 1
         temporary.replace(pdf)
         (ROOT / '.nojekyll').touch()
         print('Imported', len(copied), 'verified files. PDF appearance and text are unchanged.')
