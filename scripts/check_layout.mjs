@@ -27,8 +27,8 @@ async function metrics(page) {
       width: innerWidth,
       scrollWidth: document.documentElement.scrollWidth,
       theme: document.documentElement.dataset.theme,
-      intro: document.querySelector('.folio-lead').textContent,
-      story: document.querySelector('.folio-story').textContent,
+      intro: document.querySelector('.folio-lead')?.textContent || '',
+      story: document.querySelector('.folio-story')?.textContent || '',
       interests: [...document.querySelectorAll('.folio-interests li')].map((li) => li.textContent),
       interestBox: box(document.querySelector('.folio-interests')),
       profileBox: box(document.querySelector('.profile')),
@@ -45,7 +45,6 @@ try {
   const baselinePage = await context.newPage();
   await load(baselinePage, 'baseline.html');
   const baseline = await metrics(baselinePage);
-  console.log('Baseline body alignment difference:', Math.abs(baseline.sections[0].bodyTop - baseline.sections[1].bodyTop).toFixed(2), 'px');
   await baselinePage.screenshot({ path: 'layout-review/before-1366-light.png', fullPage: true });
   await context.close();
 
@@ -71,18 +70,12 @@ try {
       if (width >= 768) {
         assert(current.interestBox.right < current.profileBox.x, 'Research interests divider must stay out of photo column');
       }
-      if (width >= 992) {
-        for (const row of [0, 2]) {
-          assert(Math.abs(current.sections[row].y - current.sections[row + 1].y) <= 1, '2×2 section tops are not aligned');
-          assert(Math.abs(current.sections[row].bodyTop - current.sections[row + 1].bodyTop) <= 1, 'Body text starts at different heights');
-        }
-      } else {
-        for (let i = 1; i < current.sections.length; i++) {
-          assert(current.sections[i].y > current.sections[i - 1].y, 'Narrow layout must stack sections');
-        }
-      }
+      assert.equal(current.intro, '', 'Self-introduction should be removed');
+      assert.equal(current.sections.length, 0, 'Detailed biography sections should be removed');
+      assert(current.interests.length > 0, 'Research interests should remain visible');
+      assert(current.interests.every((label) => !label.includes('&')), 'Interest labels should be standalone');
       await page.screenshot({ path: `layout-review/about-${width}-${theme}.png`, fullPage: true });
-      results.push({ width, theme, headingAlignment: 'pass', contactWrapping: 'pass', contentUnchanged, photoAspectRatio: 'pass' });
+      results.push({ width, theme, biographyRemoved: 'pass', contactWrapping: 'pass', contentUnchanged, photoAspectRatio: 'pass' });
       console.log(`PASS ${width}px ${theme}: layout, contacts, photo ratio; approved text unchanged: ${contentUnchanged}`);
       await context.close();
     }
