@@ -31,6 +31,7 @@ async function metrics(page) {
       story: document.querySelector('.folio-story')?.textContent || '',
       interests: [...document.querySelectorAll('.folio-interests li')].map((li) => li.textContent),
       interestBox: box(document.querySelector('.folio-interests')),
+      interestItems: [...document.querySelectorAll('.folio-interests li')].map(box),
       profileBox: box(document.querySelector('.profile')),
       photo: { ...box(photo), naturalWidth: photo.naturalWidth, naturalHeight: photo.naturalHeight },
       sections: sections.map((section) => ({ ...box(section), bodyTop: box(section.querySelector('p')).y })),
@@ -60,6 +61,10 @@ try {
         && normalize(current.story) === normalize(baseline.story)
         && JSON.stringify(current.interests) === JSON.stringify(baseline.interests);
       assert(current.scrollWidth <= width + 1, `Horizontal overflow at ${width}/${theme}`);
+      if (width >= 992) {
+        assert(current.interestItems.every(item => Math.abs(item.y - current.interestItems[0].y) < 1), 'Desktop interests should fit on one line');
+        assert(current.interestBox.right - current.interestItems.at(-1).right >= 15, 'Divider should extend beyond the last interest');
+      }
       const displayedRatio = current.photo.width / current.photo.height;
       const originalRatio = current.photo.naturalWidth / current.photo.naturalHeight;
       assert(Math.abs(displayedRatio - originalRatio) < 0.005, 'Profile photo aspect ratio changed');
