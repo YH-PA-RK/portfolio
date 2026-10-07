@@ -70,7 +70,7 @@ try {
       if (width >= 768) {
         assert(current.interestBox.right < current.profileBox.x, 'Research interests divider must stay out of photo column');
       }
-      assert.equal(current.intro, '', 'Self-introduction should be removed');
+      assert(current.intro.includes('I am an undergraduate nursing student at Chung-Ang University'), 'Approved introduction should be visible');
       assert.equal(current.sections.length, 0, 'Detailed biography sections should be removed');
       assert(current.interests.length > 0, 'Research interests should remain visible');
       assert(current.interests.every((label) => !label.includes('&')), 'Interest labels should be standalone');
